@@ -9,7 +9,7 @@ Utilized SQL queries to extract and visualize high-risk transactions, supporting
 
 There is a lack of publicly available datasets on financial services especially in the emerging mobile money transactions domain. Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.
 
-
+We present a synthetic dataset generated using the simulator called PaySim as an approach to such a problem. 
 
 
 
