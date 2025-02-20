@@ -7,6 +7,8 @@ Bank fraud is increasingly occurring through phishing, identity theft, and sophi
 Analyzed transactional data to identify patterns indicative of fraudulent activity, enhancing the accuracy of fraud detection models.
 Utilized SQL queries to extract and visualize high-risk transactions, supporting data-driven decision-making in fraud prevention.
 
+There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain.
+
 
 
 
