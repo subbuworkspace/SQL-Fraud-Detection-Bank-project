@@ -16,6 +16,7 @@ We present a synthetic dataset generated using the PaySim simulator as an approa
 
 Imported the data to sql
 Normalize the data 
+Analyze the data
 
 
 
