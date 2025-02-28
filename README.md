@@ -15,6 +15,7 @@ There is a lack of publicly available datasets on financial services especially 
 We present a synthetic dataset generated using the PaySim simulator as an approach to such a problem. PaySim uses aggregated data from the private dataset to generate a synthetic dataset that resembles the normal operation of transactions and injects malicious behavior to evaluate the performance of fraud detection methods later. 
 
 Imported the data to sql
+Normalize the data 
 
 
 
