@@ -32,6 +32,7 @@ WHERE
     OR nameOrig IS NULL 
     OR nameDest IS NULL 
     OR isFraud IS NULL;
+
 --Balance Columns
 UPDATE FraudData
 SET 
@@ -39,14 +40,18 @@ SET
     newbalanceOrig = COALESCE(newbalanceOrig, 0),
     oldbalanceDest = COALESCE(oldbalanceDest, 0),
     newbalanceDest = COALESCE(newbalanceDest, 0);
+
 --step (Time Step)
 UPDATE FraudData
 SET step = (SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY step) Over () FROM Transactions)
 WHERE step IS NULL;
+
 --isFlaggedFraud
 UPDATE FraudData
 SET isFlaggedFraud = 0
 WHERE isFlaggedFraud IS NULL;
+
+
 
 --Validate Cleaned Data
 
@@ -65,6 +70,8 @@ SELECT
     SUM(CASE WHEN isFlaggedFraud IS NULL THEN 1 ELSE 0 END) AS Null_isFlaggedFraud
 FROM FraudData;
 
+
+
 --Export Clean Data for Power BI
 
 CREATE VIEW Cleaned_Transactions AS
@@ -79,6 +86,8 @@ WHERE
 
 select*from [dbo].[Cleaned_Transactions]
 
+    
+
 --Final Checks (Ensure no duplicate rows exist:)
 
 SELECT step, type, amount, nameOrig, nameDest, COUNT(*)
@@ -86,7 +95,10 @@ FROM FraudData
 GROUP BY step, type, amount, nameOrig, nameDest
 HAVING COUNT(*) > 1;
 
---Now your data is ready for analysis!
+
+
+
+--Now data is ready for analysis!
 
 select*from [dbo].[FraudData]
 
