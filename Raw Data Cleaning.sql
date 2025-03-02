@@ -1,3 +1,6 @@
+-- Cleaning the data for null values is critical to ensure accuracy before starting analysis or visualization. Below is a step-by-step guide to prepare the dataset for the SQL Fraud Detection project:
+
+
 Use FraudDetection
 select*from [dbo].[FraudData]
 
