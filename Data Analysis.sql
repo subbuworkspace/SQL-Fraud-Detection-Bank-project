@@ -31,6 +31,16 @@ SELECT
 FROM FraudData
 GROUP BY isFraud;
 
+--
+SELECT 
+    step AS Hour,
+    COUNT(*) AS Fraud_Count
+FROM Transactions
+WHERE isFraud = 1
+GROUP BY step
+ORDER BY Fraud_Count DESC
+LIMIT 10; -- Top 10 hours with most fraud
+
 
 
 
