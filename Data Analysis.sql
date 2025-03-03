@@ -21,7 +21,15 @@ FROM FraudData
 GROUP BY type
 ORDER BY Fraud_Rate DESC;
 
+--Average Amount for Fraud vs. Non-Fraud
 
+SELECT 
+    isFraud,
+    AVG(amount) AS Avg_Amount,
+    MAX(amount) AS Max_Amount,
+    MIN(amount) AS Min_Amount
+FROM FraudData
+GROUP BY isFraud;
 
 
 
