@@ -35,7 +35,7 @@ GROUP BY isFraud;
 SELECT 
     step AS Hour,
     COUNT(*) AS Fraud_Count
-FROM Transactions
+FROM FraudData
 WHERE isFraud = 1
 GROUP BY step
 ORDER BY Fraud_Count DESC
