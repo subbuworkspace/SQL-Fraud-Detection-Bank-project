@@ -31,7 +31,7 @@ SELECT
 FROM FraudData
 GROUP BY isFraud;
 
---
+-- Fraudulent Transactions by Hour (Step)
 SELECT 
     step AS Hour,
     COUNT(*) AS Fraud_Count
