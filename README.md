@@ -26,5 +26,6 @@ I performed exploratory data analysis (EDA) on banking transaction data using SQ
 
 •	Total Transactions and Fraud Distribution: Examined the overall transaction count and identified fraud distribution patterns.
 
+•	Fraud by Transaction Type: Analyzed the occurrence of fraud across different transaction types.
 
 
