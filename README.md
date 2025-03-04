@@ -18,5 +18,11 @@ We present a synthetic dataset generated using the PaySim simulator as an approa
 
 This guide outlines the steps to clean and prepare the fraud detection dataset, ensuring accuracy and consistency for analysis. It covers handling missing values by removing incomplete records in critical fields, replacing nulls in balance columns, and standardizing time and fraud flag data. Final checks include removing duplicates and validating data ranges to optimize the dataset for reliable fraud detection.
 
+##Analysis
+
+I performed exploratory data analysis (EDA) on banking transaction data using SQL in this project. 
+The analysis includes:
+
+
 
 
