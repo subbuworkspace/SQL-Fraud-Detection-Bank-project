@@ -28,4 +28,4 @@ I performed exploratory data analysis (EDA) on banking transaction data using SQ
 
 •	Fraud by Transaction Type: Analyzed the occurrence of fraud across different transaction types.
 
-
+•	Average Amount for Fraud vs. Non-Fraud Transactions: Compared the average transaction amounts between fraudulent and non-fraudulent transactions.
