@@ -21,6 +21,7 @@ This guide outlines the steps to clean and prepare the fraud detection dataset, 
 ##Analysis
 
 I performed exploratory data analysis (EDA) on banking transaction data using SQL in this project. 
+ 
  ###The analysis includes:
 
 •	Total Transactions and Fraud Distribution: Examined the overall transaction count and identified fraud distribution patterns.
