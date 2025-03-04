@@ -29,7 +29,7 @@ SELECT
     MAX(amount) AS Max_Amount,
     MIN(amount) AS Min_Amount
 FROM FraudData
-GROUP BY isFraud;
+GROUP BY isFraud; 
 
 
 
