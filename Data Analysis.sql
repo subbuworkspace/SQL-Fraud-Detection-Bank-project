@@ -31,7 +31,7 @@ SELECT
 FROM FraudData
 GROUP BY isFraud; 
 
-for analysis we 
+for analysis
 
 
 
