@@ -34,7 +34,6 @@ GROUP BY isFraud;
 for analysis we have ..
 
 
-ah hgsdw d hygdswyd
 
 
 
