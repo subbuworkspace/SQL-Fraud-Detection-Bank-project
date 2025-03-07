@@ -79,4 +79,9 @@ ORDER BY Fraud_Count DESC;
 
 --Threshold Analysis
 --Transactions Exceeding 200,000 Threshold
-
+SELECT 
+    isFraud,
+    COUNT(*) AS Transactions_Above_200k
+FROM FraudData
+WHERE amount > 200000
+GROUP BY isFraud;
