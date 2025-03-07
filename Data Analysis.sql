@@ -46,7 +46,13 @@ select*from [dbo].[FraudData]
 
  --Flagged Fraud vs. Actual Fraud
 
-
+ SELECT 
+    isFlaggedFraud,
+    SUM(CAST(isFraud AS INT)) AS Actual_Fraud,
+    COUNT(*) AS Flagged_Transactions,
+    (SUM(CAST(isFraud AS INT)) * 100.0 / COUNT(*)) AS Precision
+FROM FraudData
+GROUP BY isFlaggedFraud;
 
 
 
