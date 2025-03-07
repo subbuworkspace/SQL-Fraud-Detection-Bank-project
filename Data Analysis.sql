@@ -44,7 +44,7 @@ ORDER BY Fraud_Count DESC;
 
 select*from [dbo].[FraudData]
 
-
+ --Flagged Fraud vs. Actual Fraud
 
 
 
