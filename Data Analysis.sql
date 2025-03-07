@@ -55,7 +55,7 @@ FROM FraudData
 GROUP BY isFlaggedFraud;
 
 --High-Risk Accounts
-
+--Top 5 Fraudulent Origins
 
 
 
