@@ -85,3 +85,12 @@ SELECT
 FROM FraudData
 WHERE amount > 200000
 GROUP BY isFraud;
+
+-- Balance Anomalies
+--Balance Mismatch in Fraudulent Transactions
+-- Tolerance for floating-point errors
+
+
+
+
+
