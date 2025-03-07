@@ -55,8 +55,8 @@ FROM FraudData
 GROUP BY isFlaggedFraud;
 
 --High-Risk Accounts
---Top 5 Fraudulent Origins
 
+--Top 5 Fraudulent Origins
 SELECT TOP 5
     nameOrig,
     COUNT(*) AS Fraud_Count,
@@ -67,7 +67,14 @@ GROUP BY nameOrig
 ORDER BY Fraud_Count DESC;
 
 --Top 5 Fraudulent Destinations
-
+SELECT TOP 5
+    nameDest,
+    COUNT(*) AS Fraud_Count,
+    SUM(amount) AS Total_Amount
+FROM FraudData
+WHERE isFraud = 1
+GROUP BY nameDest
+ORDER BY Fraud_Count DESC;
 
 
 
