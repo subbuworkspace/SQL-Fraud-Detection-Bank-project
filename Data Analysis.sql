@@ -90,7 +90,15 @@ GROUP BY isFraud;
 --Balance Mismatch in Fraudulent Transactions
 -- Tolerance for floating-point errors
 
-
+SELECT 
+    nameOrig,
+    amount,
+    oldbalanceOrg,
+    newbalanceOrig
+FROM FraudData
+WHERE 
+    isFraud = 1 
+    AND ABS(oldbalanceOrg - amount - newbalanceOrig) > 0.01; 
 
 
 
