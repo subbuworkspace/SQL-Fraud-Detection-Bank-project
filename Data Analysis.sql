@@ -66,7 +66,7 @@ WHERE isFraud = 1
 GROUP BY nameOrig
 ORDER BY Fraud_Count DESC;
 
-
+--Top 5 Fraudulent Destinations
 
 
 
