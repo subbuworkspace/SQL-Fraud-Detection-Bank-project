@@ -31,7 +31,8 @@ SELECT
 FROM FraudData
 GROUP BY isFraud; 
 
-
+-- Fraudulent Transactions by Hour (Step)
+-- Top 10 hours with most fraud
 
 
 
