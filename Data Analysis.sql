@@ -54,7 +54,7 @@ select*from [dbo].[FraudData]
 FROM FraudData
 GROUP BY isFlaggedFraud;
 
-
+--High-Risk Accounts
 
 
 
