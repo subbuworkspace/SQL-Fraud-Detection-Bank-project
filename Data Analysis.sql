@@ -42,6 +42,8 @@ WHERE isFraud = 1
 GROUP BY step
 ORDER BY Fraud_Count DESC;
 
+select*from [dbo].[FraudData]
+
 
 
 
