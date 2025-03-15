@@ -29,4 +29,4 @@ I performed exploratory data analysis (EDA) on banking transaction data using SQ
 •	Fraud by Transaction Type: Analyzed the occurrence of fraud across different transaction types.
 
 •	Average Amount for Fraud vs. Non-Fraudulent Transactions: Compare the average amounts between fraudulent and non-fraudulent transactions.
-we have several analysis thro SQL and achive the requirements of the project. Also to show the insight the projects we have prepared the visualization  in  PowerBI .
+we have several analysis thro SQL and achive the requirements of the project. Also to show the insight the projects we have prepared the visualization  in  PowerBI . We have made separeted dashboard for each one.
