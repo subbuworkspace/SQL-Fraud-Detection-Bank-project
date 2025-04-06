@@ -7,7 +7,7 @@ Bank fraud is increasingly occurring through phishing, identity theft, and sophi
 Analyzed transactional data to identify patterns indicative of fraudulent activity, enhancing the accuracy of fraud detection models.
 Utilized SQL queries to extract and visualize high-risk transactions, supporting data-driven decision-making in fraud prevention.
 
-About Dataset
+About 
 Context
 
 There is a lack of publicly available datasets on financial services especially in the emerging mobile money transactions domain. Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.
