@@ -14,7 +14,7 @@ There is a lack of publicly available datasets on financial services especially 
 
 We present a synthetic dataset generated using the PaySim simulator as an approach to such a problem. PaySim uses aggregated data from the private dataset to generate a synthetic dataset that resembles the normal operation of transactions and injects malicious behavior to evaluate the performance of fraud detection methods later. 
 
-## Fraud Detection Data Cleaning
+## Fraud Detection  Cleaning
 
 This guide outlines the steps to clean and prepare the fraud detection dataset, ensuring accuracy and consistency for analysis. It covers handling missing values by removing incomplete records in critical fields, replacing nulls in balance columns, and standardizing time and fraud flag data. Final checks include removing duplicates and validating data ranges to optimize the dataset for reliable fraud detection.
 
